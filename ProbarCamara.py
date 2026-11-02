@@ -6,7 +6,7 @@ import torch
 from ultralytics import YOLO
 
 PESOS = Path(sys.argv[1]) if len(sys.argv) > 1 else Path("modelos") / "yolo26l_best.pt"
-CONF = 0.4
+CONF = 0.5
 DEVICE = 0 if torch.cuda.is_available() else "cpu"
 
 if not PESOS.exists():
