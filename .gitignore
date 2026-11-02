@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+runs/
+Fruits-by-YOLO-3/
+capturas/
+salida.txt
+.env
+*.pt
+!modelos/yolo26n_best.pt
+!modelos/yolo26s_best.pt
+!modelos/yolo26l_best.pt
+entrenar_prueba.py
+verificar_dataset.py
